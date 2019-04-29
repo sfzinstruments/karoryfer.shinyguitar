@@ -1,0 +1,69 @@
+<GUI w="775" h="335">
+ 
+	<!-- Background -->
+
+	<StaticImage x="1" y="1" w="773" h="333" image="shinyguitar_gui.png" transparent="0"  />
+	
+	<!-- Controls - labels and knobs for the four sound color controls -->
+	
+	<StaticText x="144" y="7" w="100" h="20" text="Sound Color" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="9" y="27" w="100" h="18" text="Pickup/Mic Blend" color_text="#FFFFFFFF" transparent="1"   />
+	
+	<Knob param="100" x="45" y="50" image="shinyguitar_knob.png" frames="127"  />
+
+	<StaticText x="99" y="27" w="100" h="18" text="Tone" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="101" x="135" y="50" image="shinyguitar_knob.png" frames="127"   />
+
+	<StaticText x="189" y="27" w="100" h="18" text="Tame" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="112" x="225" y="50" image="shinyguitar_knob.png" frames="127"   />
+
+	<StaticText x="279" y="27" w="100" h="18" text="Mute" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="110" x="315" y="50" image="shinyguitar_knob.png" frames="127"   />
+
+	<!-- Vibrato controls -->
+
+	<StaticText x="414" y="137" w="100" h="20" text="Vibrato" color_text="#FFFFFFFF" transparent="1"   />
+
+	<StaticText x="279" y="157" w="100" h="18" text="Depth" color_text="#FFFFFFFF" transparent="1"   />
+	
+	<Knob param="1" x="315" y="180" image="shinyguitar_knob.png" frames="127"  />
+
+	<StaticText x="369" y="157" w="100" h="18" text="Speed" color_text="#FFFFFFFF" transparent="1"   />
+	
+	<Knob param="103" x="405" y="180" image="shinyguitar_knob.png" frames="127"   />
+
+	<StaticText x="459" y="157" w="100" h="18" text="Delay" color_text="#FFFFFFFF" transparent="1"  />
+	
+	<Knob param="104" x="495" y="180" image="shinyguitar_knob.png" frames="127"   />
+
+	<StaticText x="549" y="157" w="100" h="18" text="Fade" color_text="#FFFFFFFF" transparent="1"  />
+	
+	<Knob param="105" x="585" y="180" image="shinyguitar_knob.png" frames="127"   />
+
+    <!-- Controls for voices, with the number of voices as an OptionMenu -->
+	
+	<StaticText                x="433"  y="27"  w="120" h="18"  text="Voice Number"  font_size="Small" alignment="center" color_text="#FFFFFFFF" transparent="1"   />		
+	<OptionMenu    param="107"  x="448"  y="65"  w="90" h="18"  font_size="Small" alignment="center" color_text="#000000FF"  color_back="#C4C19CFF" transparent="0"   >	
+		<OptionItem name="One + Release"		    value="0.0" />
+		<OptionItem name="Two"		    value="0.25" />
+		<OptionItem name="Three"	    value="0.5" />
+		<OptionItem name="Four"		    value="0.75" />
+		<OptionItem name="Five"    value="1.0" />	
+	</OptionMenu>	
+
+	<StaticText x="549" y="7" w="100" h="20" text="Voices" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="549" y="27" w="100" h="18" text="Release Volume" color_text="#FFFFFFFF" transparent="1"  />
+	
+	<Knob param="106" x="585" y="50" image="shinyguitar_knob.png" frames="127" /> 
+
+	<StaticText x="639" y="27" w="100" h="18" text="Unison Width" color_text="#FFFFFFFF" transparent="1"  />
+	
+	<Knob param="108" x="675" y="50" image="shinyguitar_knob.png" frames="127"   />
+
+</GUI>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

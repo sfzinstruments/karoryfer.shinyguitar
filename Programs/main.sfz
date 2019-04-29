@@ -1,0 +1,95 @@
+// **********************************************************************
+// Name:      Shinyguitar
+// Vendor:    Karoryfer Samples   
+// **********************************************************************
+
+<control>
+default_path=$sample_dir/ 
+label_cc7=Master Vol
+label_cc10=Master Pan
+label_cc100=Blend
+label_cc101=Tone
+label_cc1=Vibrato Depth 
+label_cc103=Vibrato Speed
+label_cc104=Vibrato Delay
+label_cc105=Vibrato Fade
+label_cc106=Release Noise
+label_cc107=Voices
+label_cc108=Width
+label_cc110=Mute
+label_cc112=Tame
+set_cc1=0
+set_cc7=100
+set_cc10=64
+set_cc100=0
+set_cc101=127
+set_cc103=32
+set_cc104=0
+set_cc105=36
+set_cc106=0
+set_cc107=0
+set_cc108=127
+set_cc110=0
+set_cc112=0
+
+<global>
+amplitude_oncc7=100
+pan=-100
+pan_oncc10=200
+ampeg_attack=0.0002
+offset_oncc112=4400
+
+ampeg_hold=0.3
+ampeg_hold_oncc110=-0.3
+ampeg_hold_curvecc110=8
+ampeg_decay=1
+ampeg_decay_oncc110=-0.9
+ampeg_decay_curvecc110=8
+ampeg_sustain=100
+ampeg_sustain_oncc110=-100
+ampeg_sustain_curvecc110=7
+offset_oncc112=1300
+
+lfo01_pitch_oncc1=14
+lfo01_freq=1
+lfo01_freq_oncc103=6
+lfo01_delay_oncc104=0.3
+lfo01_fade_oncc105=0.5
+
+fil_type=lpf_1p
+cutoff=1250
+resonance=0
+cutoff_oncc101=5000
+
+#include "electric_one.sfz"
+#include "acoustic_one.sfz"
+
+#include "electric_two.sfz"
+#include "acoustic_two.sfz"
+
+#include "electric_three.sfz"
+#include "acoustic_three.sfz"
+
+#include "electric_four.sfz"
+#include "acoustic_four.sfz"
+
+#include "electric_five.sfz"
+#include "acoustic_five.sfz"
+
+#include "electric_release.sfz"
+#include "acoustic_release.sfz"
+
+#include "electric_noises.sfz"
+#include "acoustic_noises.sfz"
+
+<curve>curve_index=7
+v000=0
+v032=1
+v127=1
+
+<curve>curve_index=8
+v000=0
+v032=0.5
+v064=0.75
+v096=0.875
+v127=1
